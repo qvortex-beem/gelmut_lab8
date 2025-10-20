@@ -1,6 +1,4 @@
-﻿//global using Base;
-
-namespace gelmut_lab8 {
+﻿namespace gelmut_lab8 {
     internal class Program {
         static void Main(string[] args) {
 
@@ -40,7 +38,9 @@ namespace gelmut_lab8 {
             //Console.WriteLine(ivan.name);
             //Console.WriteLine(pavel.name);
 
-            //Base.Student student = new Base.Student();
+            //Company microsoft = new("Microsoft");
+            //PersonInBaseNamespace tom = new("Tom", microsoft);
+            //tom.Print();
         }
     }
 

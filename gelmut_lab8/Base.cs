@@ -1,8 +1,7 @@
 ﻿namespace Base {
-    class Bases {
-        public int Number { get; set; }
-        static public void print() {
-            Console.WriteLine("используем басе");
-        }
+    class Company {
+        string title;
+        public Company(string title) => this.title = title;
+        public void Print() => Console.WriteLine($"Компания: {title}");
     }
 }
